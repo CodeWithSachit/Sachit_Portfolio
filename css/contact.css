@@ -1,0 +1,208 @@
+/* Contact Page CSS - contact.css */
+
+/* Reset margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(17, 24, 39);
+    color: white;
+    font-family: "Poppins", system-ui;
+}
+
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    background: rgb(31, 41, 55);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; 
+    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2); 
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 25px;
+    font-size: 1.2rem;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(163, 178, 190);
+    font-size: 1.1rem;
+}
+
+.left {
+    font-size: 25px;
+}
+
+.left a {
+
+    text-decoration: none;
+    color: rgb(216 180 254);
+}
+.left b {
+    color: rgb(216 180 254);
+}
+
+main {
+    margin-top: 15vh;
+}
+
+/* Contact Section Styling */
+.contact-intro {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.contact-intro h1 {
+    font-size: 2.5rem;
+    color:  rgb(89, 15, 163);
+    margin-bottom: 10px;
+
+}
+
+.contact-intro p {
+    font-size: 1.2rem;
+    color: grey;
+}
+
+.contact-details {
+    text-align: center;
+    margin: 50px 0px;
+}
+
+
+/* Form Styling */
+.contact-form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #151716;
+    border-radius: 10px;
+}
+
+.contact-form form label {
+    font-size: 1rem;
+    color: white;
+}
+
+.contact-form form input,
+.contact-form form textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid white;
+    border-radius: 6px;
+    background-color: #151716;
+    color: white;
+    font-size: 1rem;
+}
+
+.contact-form form input:focus,
+.contact-form form textarea:focus {
+    outline: none;
+    border-color: rgb(89, 15, 163);
+    /* Purple border on focus */
+}
+
+.contact-form form textarea {
+    resize: vertical;
+    height: 150px;
+}
+
+/* Submit Button */
+.contact-form .btn {
+    width: 100%;
+    padding: 12px;
+    background-color: rgb(23, 23, 92);
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.contact-form .btn:hover {
+    background-color: rgb(89, 15, 163);
+    /* Change color on hover */
+}
+
+footer {
+    background-color: #151716;
+    text-align: center;
+    color: grey;
+    padding: 12px 0;
+    margin-top: 50px;
+}
+
+.popup {
+    width: 24vw;
+    margin-top: 20px;
+    background: #fff;
+    border-radius: 6px;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%)scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #000;
+    visibility: hidden;
+    transition: transform 0.4s ease, top 0.4s ease;
+    z-index: 9999;
+
+}
+
+.open-popup {
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.popup img {
+    width: 6vw;
+    margin-top: -50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.popup h2 {
+    font-size: 30px;
+    font-weight: 500;
+    margin: 5px 0px;
+
+}
+
+.popup button {
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px 0px;
+    background: rgb(19 124 42);
+    color: black;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}

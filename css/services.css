@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(17, 24, 39);
+    color: white;
+    font-family: "Poppins", system-ui;
+}
+
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    background: rgb(31, 41, 55);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; 
+    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2); 
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 25px;
+    font-size: 1.2rem;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(163, 178, 190);
+    font-size: 1.1rem;
+}
+
+main{
+    margin-top: 15vh;
+}
+.left {
+    font-size: 25px;
+}
+
+.left a {
+
+    text-decoration: none;
+    color: rgb(216 180 254);
+}
+.left b {
+    color: rgb(216 180 254);
+}
+
+/* Services Section CSS - services.css */
+
+.services {
+    max-width: 800px;
+    /* Set a maximum width */
+    margin: 40px auto;
+    /* Center align */
+    padding: 20px;
+    background-color: #151716;
+    /* Match the overall theme */
+    border-radius: 10px;
+}
+
+.services h2 {
+    color:  rgb(89, 15, 163);
+    text-align: center;
+    /* Center the heading */
+    font-size: 2.5rem;
+    /* Larger font for visibility */
+
+    margin-bottom: 20px;
+    /* Space below the heading */
+}
+
+.service-card {
+    background-color:  rgb(45, 45, 68);
+    /* Card background */
+    border-radius: 8px;
+    /* Rounded corners */
+    padding: 15px;
+    /* Inner padding */
+    margin: 15px 0;
+    /* Space between cards */
+    transition: transform 0.3s;
+    /* Animation for hover effect */
+}
+
+.service-card h3 {
+    font-size: 1.8rem;
+    /* Service title size */
+    color: white;
+    /* Title color */
+    margin-bottom: 10px;
+    /* Space below the title */
+}
+
+.service-card p {
+    font-size: 1.1rem;
+    /* Description font size */
+    color: white;
+    /* Description color */
+}
+
+/* Hover effect */
+.service-card:hover {
+    transform: translateY(-5px);
+    /* Lift effect on hover */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    /* Shadow for depth */
+}
+
+
+
+/* Footer Styling */
+footer {
+    background-color: #151716;
+    text-align: center;
+    color: grey;
+    padding: 12px 0;
+    margin-top: 50px;
+}

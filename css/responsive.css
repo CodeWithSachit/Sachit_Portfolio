@@ -1,0 +1,32 @@
+@media screen and (max-width:900px) {
+    body {
+        background-color: #000002;
+    }
+
+    .firstsection {
+        flex-direction: column-reverse;
+    }
+
+    .firstsection>div {
+        width: 65%;
+    }
+
+    .leftsection {
+        font-size: 1.7rem;
+        margin-left: 20px;
+    }
+
+    .leftsection .buttons {
+        width: 100vw;
+        margin-left: -70px;
+
+    }
+
+    .rightsection {
+        width: 70vw;
+        margin-left: 25px;
+    }
+
+
+
+}
