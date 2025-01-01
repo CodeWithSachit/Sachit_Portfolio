@@ -102,6 +102,11 @@ footer {
     
 }
 
+.left strong img {
+    width: 40px;
+    display: none;
+}
+
 .left a{
     
     text-decoration: none;

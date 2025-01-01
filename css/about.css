@@ -1,13 +1,9 @@
-/* styles/about.css */
-
-/* General Resets */
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
-/* Body Styles */
+
 body {
     background-color: rgb(17, 24, 39);
     color: white;
@@ -26,8 +22,8 @@ nav {
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 1000; 
-    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2); 
+    z-index: 1000;
+    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);
 }
 
 nav ul {
@@ -56,18 +52,24 @@ nav ul li a:hover {
     font-size: 25px;
 }
 
+.left strong img {
+    width: 40px;
+    display: none;
+}
+
 .left a {
 
     text-decoration: none;
     color: rgb(216 180 254);
 }
+
 .left b {
     color: rgb(216 180 254);
 }
 
 
 
-/* Main Section Styling */
+
 main {
     padding: 50px 80px;
     max-width: 1200px;
@@ -75,12 +77,12 @@ main {
     margin-top: 10vh;
 }
 
-/* Section Title Styling */
+
 section h1,
 section h2 {
     font-size: 2.5rem;
     margin-bottom: 20px;
-    color:  rgb(89, 15, 163);
+    color: rgb(89, 15, 163);
     border-bottom: 2px solid rgb(163, 178, 190);
     padding-bottom: 10px;
 }
@@ -94,13 +96,13 @@ section p {
     font-size: 1.1rem;
 }
 
-/* About Section Styling */
+
 .about-intro {
     margin-bottom: 50px;
-    
+
 }
 
-/* Skills Section */
+
 .skills ul {
     list-style: none;
     margin-top: 10px;
@@ -115,7 +117,7 @@ section p {
     font-size: 1.1rem;
 }
 
-/* Experience Section */
+
 .experience p {
     background-color: rgb(45, 45, 68);
     padding: 20px;
@@ -124,7 +126,7 @@ section p {
     margin-bottom: 50px;
 }
 
-/* Projects Section */
+
 .notable-projects ul {
     list-style: none;
     padding-left: 0;
@@ -145,7 +147,7 @@ section p {
     color: white;
 }
 
-/* Education Section */
+
 .education p {
     background-color: rgb(45, 45, 68);
     padding: 20px;
@@ -154,7 +156,7 @@ section p {
     font-size: 1.1rem;
 }
 
-/* Hobbies Section */
+
 .hobbies p {
     background-color: rgb(45, 45, 68);
     padding: 20px;
@@ -164,7 +166,7 @@ section p {
 }
 
 
-/* Footer Styling */
+
 footer {
     background-color: #151716;
     text-align: center;
