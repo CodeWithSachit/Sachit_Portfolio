@@ -1,4 +1,6 @@
-@media (max-width: 390px) {
+@media (max-width: 390px),
+(max-width: 393px),
+(max-width: 400px) {
 
     header {
         padding: 65px 0px;
@@ -223,6 +225,7 @@
         gap: 12px;
         justify-content: center;
         align-items: center;
+        margin-bottom: 10px;
     }
 
 
@@ -366,3 +369,5 @@
         width: 290px;
     }
 }
+
+@media (max-width:393px) {}
