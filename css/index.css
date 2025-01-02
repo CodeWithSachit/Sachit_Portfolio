@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color:rgb(17,24,39);
+    background-color: rgb(17, 24, 39);
     color: white;
     font-family: "Poppins", system-ui;
 }
@@ -21,8 +21,8 @@ nav {
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 1000; 
-    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2); 
+    z-index: 1000;
+    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);
 }
 
 nav ul {
@@ -42,11 +42,13 @@ nav ul li a {
 
 nav ul li a:hover {
     color: rgb(163, 178, 190);
-    font-size: 1.1rem;                                 
+    font-size: 1.1rem;
 }
-main{
+
+main {
     margin-top: 20vh;
 }
+
 main hr {
     border: 0px;
     background: #44449f;
@@ -97,9 +99,10 @@ footer {
     color: grey;
     padding: 12px 0px;
 }
+
 .left {
     font-size: 25px;
-    
+
 }
 
 .left strong img {
@@ -107,14 +110,16 @@ footer {
     display: none;
 }
 
-.left a{
-    
+.left a {
+
     text-decoration: none;
-    color: rgb(216 180 254);    
+    color: rgb(216 180 254);
 }
-.left b{
-    color: rgb(216 180 254);    
+
+.left b {
+    color: rgb(216 180 254);
 }
+
 .firstsection {
     display: flex;
     justify-content: space-around;
@@ -129,7 +134,8 @@ footer {
 .leftsection {
     font-size: 2.5rem;
 }
-.leftsection .buttons{
+
+.leftsection .buttons {
     margin-top: 30px;
 }
 
@@ -144,7 +150,7 @@ footer {
     margin: 0px 5px;
 }
 
-.leftsection .btn:hover{
+.leftsection .btn:hover {
     background-color: rgb(89, 15, 163);
 }
 
@@ -156,7 +162,7 @@ footer {
 .secondsection {
     max-width: 80vw;
     margin: auto;
-    height: 120vh;
+    padding: 45px 0px;
 }
 
 .secondsection h1 {
@@ -164,46 +170,17 @@ footer {
 }
 
 .secondsection .box {
-    background: rgb(160, 153, 153);
-    width: 80vw;
-    height: 2px;
-    margin-top: 50px;
-    margin-bottom: 200px;
     display: flex;
+    width: 82vw;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0px;
+    gap: 230px;
 }
 
-.secondsection .box .verticle {
-    height: 70px;
-    background: rgb(160, 153, 153);
-    width: 2px;
-    margin: 0 90px;
+.secondsection .box img {
+    width: 60px;
 }
-
-.secondsection .box .verticle .image-top {
-    position: relative;
-    height: 40px;
-    top: -45px;
-    left: -18px;
-}
-
-.secondsection .box .verticle .verticle-title {
-    position: relative;
-    top: 35px;
-    left: -20px;
-    width: 140px;
-    height: 63px;
-}
-
-.secondsection .box .verticle .verticle-desc {
-    position: relative;
-    top: 85px;
-    left: -60px;
-    width: 180px;
-    font-size: 12px;
-}
-
-
-
 
 .text-grey {
     color: grey;
@@ -232,7 +209,3 @@ footer {
 .footer>div {
     width: 150px;
 }
-
-
-
-
